@@ -97,12 +97,12 @@ article{
 .ex_info {
     row-gap: 8px;
     font-size: large;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 /* Gap inside blocks */
 .inbgap{
-    row-gap: 16px;
+    row-gap: 26px;
 }
 
 /* Gap for paragraphs */
