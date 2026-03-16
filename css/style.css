@@ -1,6 +1,5 @@
 /* Set A4 dimensions */
 html{
-    height:297mm;
     width:210mm;
     border:1px solid black;
     margin:auto;
@@ -13,7 +12,6 @@ body{
 }
 
 main{
-    min-height: 100%;
     align-items: stretch;
 }
 
@@ -26,6 +24,7 @@ header{
     color: white;
     height: 100px;
     align-items: center;
+    margin-bottom: 10px;
 }
 
 #identity{
@@ -87,7 +86,7 @@ i{
 }
 
 article{
-    row-gap: 8px;
+    row-gap: 16px;
 }
 
 .ex{
@@ -102,12 +101,13 @@ article{
 
 /* Gap inside blocks */
 .inbgap{
-    row-gap: 26px;
+    row-gap: 1px;
 }
 
 /* Gap for paragraphs */
 .pgap{
     row-gap: 8px;
+    margin-bottom: 20px;
 }
 
 .company{
